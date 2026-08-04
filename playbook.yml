@@ -1,0 +1,36 @@
+- name: Set up data collection and storage services
+  hosts: localhost
+  become: true
+  roles:
+    - docker
+    - minio
+    - opcplc
+    - timescaledb
+    - mosquitto
+    - telegraf
+    - go-mqtt-timescaledb
+
+- name: Set up application services
+  hosts: localhost
+  become: true
+  roles:
+    - fuseki
+    - mongodb
+    - fast_opcuacontrol
+    - grafana_local
+    - fastfuseki
+    - frontend
+
+- name: Set up Kadi4Mat
+  hosts: localhost
+  become: true
+  roles:
+    - postgres
+    - redis
+    - elasticsearch
+    - kadi
+    - celery
+    - celerybeat
+    - apache
+
+    

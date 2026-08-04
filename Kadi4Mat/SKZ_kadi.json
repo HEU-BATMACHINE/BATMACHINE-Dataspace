@@ -1,0 +1,119 @@
+{
+  "created_at": "2025-10-24T12:13:35.477890+00:00",
+  "creator": {
+    "displayname": "Battery Slurry DOE Operator",
+    "id": 12,
+    "orcid": null
+  },
+  "data": {
+    "collections": [],
+    "description": "Example graphite anode slurry DOE record based on the SKZ 30-slurry operator experiment protocol. The formulation uses the F1 CTRL dry-basis composition with graphite, Super P, CMC, and SBR.",
+    "extras": [
+      {
+        "key": "Active_Material",
+        "type": "dict",
+        "value": [
+          {
+            "key": "Graphite_BTR_BFC_H21_or_BTR_EA_1",
+            "type": "float",
+            "unit": "%",
+            "value": 95.6
+          },
+          {
+            "key": "Secondary_Active_Material",
+            "type": "float",
+            "unit": "%",
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "key": "Conducting_Additive",
+        "type": "dict",
+        "value": [
+          {
+            "key": "Super_P_Carbon_Black",
+            "type": "float",
+            "unit": "%",
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "key": "Binder",
+        "type": "dict",
+        "value": [
+          {
+            "key": "CMC_SBR_Binder_System",
+            "type": "float",
+            "unit": "%",
+            "value": 3.4
+          }
+        ]
+      },
+      {
+        "key": "Slurry_properties",
+        "type": "dict",
+        "value": [
+          {
+            "key": "solids_content",
+            "type": "float",
+            "unit": "wt%",
+            "value": 50.0
+          },
+          {
+            "key": "solvent",
+            "type": "str",
+            "value": "Deionized Water"
+          }
+        ]
+      },
+      {
+        "key": "Process_parameters",
+        "type": "dict",
+        "value": [
+          {
+            "key": "mixing_machine",
+            "type": "str",
+            "value": "SKZ_Mixer"
+          },
+          {
+            "key": "mixing_temperature",
+            "type": "float",
+            "unit": "degC",
+            "value": null
+          },
+          {
+            "key": "mixing_time",
+            "type": "float",
+            "unit": "min",
+            "value": null
+          },
+          {
+            "key": "mixing_program",
+            "type": "str",
+            "value": "F1_CTRL_Graphite_Anode_Slurry_P1_P2_or_P3"
+          }
+        ]
+      }
+    ],
+    "identifier": "f1_ctrl_graphite_anode_slurry_doe",
+    "license": null,
+    "record_links": [],
+    "roles": [],
+    "tags": [
+      "battery",
+      "slurry",
+      "graphite-anode",
+      "doe"
+    ],
+    "title": "F1 CTRL Graphite Anode Slurry DOE",
+    "type": "slurry"
+  },
+  "description": "Example graphite anode slurry DOE record based on the SKZ 30-slurry operator experiment protocol.",
+  "id": 81,
+  "identifier": "f1_ctrl_graphite_anode_slurry_doe_record",
+  "last_modified": "2025-10-24T12:13:35.552869+00:00",
+  "title": "F1 CTRL Graphite Anode Slurry DOE Record",
+  "type": "record"
+}

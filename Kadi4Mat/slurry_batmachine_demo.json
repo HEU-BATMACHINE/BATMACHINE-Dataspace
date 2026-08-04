@@ -1,0 +1,119 @@
+{
+  "created_at": "2025-10-24T12:13:35.477890+00:00",
+  "creator": {
+    "displayname": "Demo User",
+    "id": 12,
+    "orcid": null
+  },
+  "data": {
+    "collections": [],
+    "description": "Example LFP cathode slurry formulation derived from publicly available literature.",
+    "extras": [
+      {
+        "key": "Active_Material",
+        "type": "dict",
+        "value": [
+          {
+            "key": "Lithium_Iron_Phosphate_LFP",
+            "type": "float",
+            "unit": "%",
+            "value": 96.0
+          },
+          {
+            "key": "Secondary_Active_Material",
+            "type": "float",
+            "unit": "%",
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "key": "Conducting_Additive",
+        "type": "dict",
+        "value": [
+          {
+            "key": "Super_P_Carbon_Black",
+            "type": "float",
+            "unit": "%",
+            "value": 2.0
+          }
+        ]
+      },
+      {
+        "key": "Binder",
+        "type": "dict",
+        "value": [
+          {
+            "key": "Polyvinylidene_Fluoride_PVDF",
+            "type": "float",
+            "unit": "%",
+            "value": 2.0
+          }
+        ]
+      },
+      {
+        "key": "Slurry_properties",
+        "type": "dict",
+        "value": [
+          {
+            "key": "solids_content",
+            "type": "float",
+            "unit": "wt%",
+            "value": 65.0
+          },
+          {
+            "key": "solvent",
+            "type": "str",
+            "value": "NMP"
+          }
+        ]
+      },
+      {
+        "key": "Process_parameters",
+        "type": "dict",
+        "value": [
+          {
+            "key": "mixing_machine",
+            "type": "str",
+            "value": "Planetary_Mixer"
+          },
+          {
+            "key": "mixing_temperature",
+            "type": "float",
+            "unit": "degC",
+            "value": 25.0
+          },
+          {
+            "key": "mixing_time",
+            "type": "float",
+            "unit": "min",
+            "value": 120.0
+          },
+          {
+            "key": "mixing_program",
+            "type": "str",
+            "value": "Active_Material_Addition_Followed_By_Degassing"
+          }
+        ]
+      }
+    ],
+    "identifier": "lfp_cathode_slurry_recipe_v1",
+    "license": "CC-BY-4.0",
+    "record_links": [],
+    "roles": [],
+    "tags": [
+      "batmachine",
+      "lfp",
+      "cathode",
+      "slurry"
+    ],
+    "title": "LFP Cathode Slurry Recipe",
+    "type": "slurry"
+  },
+  "description": "Example lithium-ion battery LFP cathode slurry formulation based on publicly available literature.",
+  "id": 81,
+  "identifier": "lfp_cathode_slurry_demo",
+  "last_modified": "2025-10-24T12:13:35.552869+00:00",
+  "title": "LFP Cathode Slurry Recipe (Demo Dataset)",
+  "type": "record"
+}

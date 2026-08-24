@@ -18,7 +18,7 @@
     - mongodb
     - fast_opcuacontrol
     - grafana_local
-    - fastfuseki
+    - dataspace_backend
     - frontend
 
 - name: Set up Kadi4Mat

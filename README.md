@@ -37,7 +37,7 @@ The setup uses the following components:
 - MongoDB
 - OPC UA control service
 - Grafana
-- FastFuseki
+- Dataspace Backend
 - Frontend
 
 ### Kadi4Mat
@@ -75,3 +75,9 @@ The playbook defines the required component roles. The role implementations are 
 ## Security and Data Handling
 
 Security, access control, and data management are deployment-specific and are the responsibility of the user. Consult the documentation of each component for applicable guidance.
+
+## Equipment onboarding 
+
+Equipment onboarding is done with the help of equipment wrapper - which can be created using [equipment wrapper template](https://github.com/HEU-BATMACHINE/equipment-wrapper-template)
+Examples can be found in the [batmachine repository](https://github.com/orgs/HEU-BATMACHINE/repositories).
+The wrapper generates nodelist , init.sql , channels.ttl annd grafana dashboards - this can be added into the relevant volumes and used within the dataspace.
